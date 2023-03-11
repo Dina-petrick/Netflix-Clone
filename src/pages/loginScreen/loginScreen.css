@@ -90,3 +90,42 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .loginScreen_logo {
+        top: 20px;
+        width: 130px;
+    }
+
+
+    .loginScreen__body {
+        top: 25%;
+    }
+
+    .loginScreen__body>h1 {
+        font-size: 2rem;
+    }
+
+    .loginScreen__body>h2 {
+        font-size: 1.4rem;
+        margin-bottom: 15px;
+    }
+
+    .loginScreen__body>h3 {
+        font-size: 1rem;
+    }
+
+
+    .loginScreenInput__form {
+        padding: 0px 5px;
+        height: 38.5px;
+        width: 50%;
+    }
+
+    .loginScreen__getStarted {
+        padding: 14px 10px;
+        font-size: 0.7rem;
+    }
+
+}

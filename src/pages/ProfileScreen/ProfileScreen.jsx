@@ -19,7 +19,7 @@ const ProfileScreen = () => {
     <div className="profileScreen">
       <Navbar />
       <div className="profileScreen__body">
-        <h1>Edit Profile</h1>
+        <h1 className="profileScreen__heading">Edit Profile</h1>
         <div className="profileScreen__info">
           <img className="profileScreen__avatar" src={avatar} alt="" />
           <div className="profileScreen__Details">

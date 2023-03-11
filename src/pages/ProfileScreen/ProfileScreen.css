@@ -74,3 +74,33 @@
     cursor: pointer;
     border: none;
 }
+
+
+@media only screen and (max-width: 768px) {
+
+    .profileScreen__avatar {
+        display: none;
+    }
+
+
+    .profileScreen__body {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 4%;
+    }
+
+    .profileScreen__body>h1 {
+        font-size: 25px;
+        padding-top: 60px;
+
+    }
+
+
+    .profileScreen__Details {
+        margin-left: 0px;
+
+    }
+
+
+}
