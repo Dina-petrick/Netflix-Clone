@@ -67,7 +67,16 @@
 }
 
 @media only screen and (max-width: 768px) {
+
     .slider_action {
         visibility: hidden;
+    }
+
+    .row__posters {
+        overflow-x: scroll;
+    }
+
+    .row__posters::-webkit-scrollbar {
+        display: none;
     }
 }
